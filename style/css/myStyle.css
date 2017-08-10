@@ -1,3 +1,13 @@
+.bg_header{
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.container .header{
+  z-index: 1;
+  position: absolute;
+  width: 730px;
+}
 .header h3{
   color: red;
   text-transform: uppercase;
@@ -11,7 +21,40 @@
 .header nav ul{
   display: block;
 }
-.header nav li{
-  display: inline-block;
+.header nav li a{
   color: #fff;
+}
+.header nav li a:hover{
+  background-color: #333333;
+}
+.carousel-inner .carousel-caption{
+  padding-bottom: 180px;
+  line-height: 2;
+}
+.carousel-inner .carousel-caption p, h1{
+  text-transform: uppercase;
+  color: #fff;
+}
+.carousel-inner .carousel-caption p{
+  font-size: 20px;
+}
+.btn_caption{
+  border: 1px solid #fff;
+  padding: 10px 10px;
+  color: #fff;
+  font-size: 12px;
+}
+.btn_caption:hover{
+  color: #333333;
+}
+/*.carousel-inner .carousel-caption .btn_caption p>a{
+  color: #fff;
+}*/
+.carousel-inner{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-inner img{
+  position: relative;
 }
